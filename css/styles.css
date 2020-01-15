@@ -1,0 +1,347 @@
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+}
+img, embed, object, video {
+  max-width: 100%;
+}
+
+body {
+  font-family: "times", sans-serif, cursive;
+  font-size: 27px;
+  color: #066192;
+  text-align: center;
+  }
+
+header, main, aside, footer {
+  box-sizing: border-box;
+}
+
+
+header {
+  height: 330px;
+  width:100%;
+  margin: auto;
+ }
+
+ .exten_img {
+   height: 130px;
+   width: 20%;
+   margin: 3em 0em 2em 3em;
+   float: left;
+ }
+ .slogan_img {
+   height: 300px;
+   width: 70%;
+   float: right;
+ }
+
+#Intro {
+  height: 950px;
+  width:100%;
+  margin: auto;
+  background-image: url("img/r-l.png");
+}
+
+ .intro_img {
+   height: 250px;
+   width: 50%;
+   padding: 3em;
+   margin: 5em 1em 1em;
+   float: center;
+   border: 1px inset rgb(136, 212, 250);
+
+ }
+ .intro_text {
+   font: 25px Times, sans-serif;
+   /* position: relative; */
+   width: 70%;
+   word-spacing: 4px;
+   letter-spacing: 1px;
+   padding: 2.5em;
+   margin: auto;
+   text-align: center;
+   line-height: 45px;
+ }
+
+ #vission {
+   display: block;
+   height: 500px;
+   width:100%;
+   margin: auto;
+   /* border-top: 1px solid rgb(242, 247, 249); */
+ }
+
+ .vission_img {
+   height: 350px;
+   width: 65%;
+   float: center;
+   margin: 3em 1em 2em ;
+   /* position: sticky; */
+ }
+
+
+b {
+  color: #d1ab0d;
+}
+
+#skills, #springs, #contact {
+  font: Times, sans-serif;
+  color: #ddb000;
+}
+
+#lense {
+  height: 1530px;
+  width:100%;
+  margin: auto;
+  border-top: 1px solid rgb(242, 247, 249);
+  background-image: linear-gradient(45deg, transparent, #d1ab0d73);
+  /* 45deg */
+}
+
+.lens_img {
+    height: 400px;
+    width: 50%;
+    background: white;
+    padding: 1em;
+    margin: 1em 5em 3em;
+    border: 1px solid #ddb000;
+}
+
+.lens_text {
+  font: 20px Times, sans-serif;
+      width: 65%;
+      margin: auto;
+      word-spacing: 3px;
+      letter-spacing: 1.5px;
+      text-align: center;
+      color: #00476d;
+      line-height: 27px;
+}
+
+#skills {
+  height: 1420px;
+  width:100%;
+  margin: auto;
+  border-top: 1px solid rgb(242, 247, 249);
+  background-image: linear-gradient(45deg, transparent, #06619233);
+  /* 45deg */
+}
+
+.skills_img {
+    height: 400px;
+    width: 50%;
+    background: white;
+    padding: 1em;
+    margin: 1em 5em 3em;
+    border: 1px solid #066192;
+  }
+
+.skills_text {
+  font: 20px Times, sans-serif;
+  width: 65%;
+  margin: auto;
+  word-spacing: 3px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  line-height: 27px;
+}
+
+#students{
+  height:725px;
+  width: 100%;
+  margin: auto;
+  /* border-bottom: 2px solid #066192; */
+}
+
+.st-text {
+  font: 20px Times, sans-serif;
+  width: 55%;
+  margin: auto;
+  word-spacing: 3px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.head-line {
+  font-size: 25px;
+}
+
+
+.require {
+  text-align: left;
+}
+
+ol {
+  text-align: left;
+  line-height: 35px;
+}
+
+h1 {
+  font: 60px Times , sans-serif;
+    font-weight: bold;
+    letter-spacing: 15px;
+    word-spacing: 20px;
+    margin: 1.5em;
+  }
+
+ #springs {
+  height:900px;
+  width: 100%;
+  margin: auto;
+  transition-duration: 3s;
+  /* border-top: 2px solid #ddb000; */
+}
+
+.spring_img{
+  height: 450px;
+  width: 75%;
+  float: center;
+  margin: 1em;
+  padding: 10px;
+  border: 2px solid #ddb000;
+  /* position: relative; */
+  transition: 4s;
+}
+
+.quote {
+  height: 150px;
+  width:100%;
+  margin: auto;
+  border-top: 1px solid white;
+}
+
+.quote_img {
+  height: 150px;
+  width: 100%;
+  background: white;
+  /* padding: 1em; */
+  /* margin: 1em 5em 3em; */
+  /* border: 1px solid #454545; */
+}
+
+.find {
+  height: 50px;
+}
+
+.find a {
+  font: 25px Times, sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 1px;
+  color: #d1ab0d;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.find span {
+  color: #066192;
+  transition: 0.5s;
+}
+
+.find a:hover {
+  /* background-color: #ddd; */
+  color: #066192;
+}
+
+#team {
+  height:1000px;
+  width: 100%;
+  margin: auto;
+  /* border-top: 2px solid #066192; */
+}
+
+.team_img{
+  height: 500px;
+  width: 55%;
+  float: center;
+  margin: 0em 1em 2em 1em;
+  /* position: relative; */
+  transition: 3s;
+}
+
+.team-text {
+  font-size: 25px;
+  width: 80%;
+  margin: auto;
+  line-height: 40px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.team-text a {
+  color: #d1ab0d;
+}
+
+.team-text i {
+  font-size: 50px;
+}
+
+
+
+#contact {
+  height: 330px;
+  width: 100%;
+  bottom: 0px;
+  background-image: linear-gradient(#066192, white);
+}
+
+.icon {
+  /* position: static; */
+  height: 120px;
+  width: 12%;
+  padding: 1em;
+  margin: auto;
+  transition: 5s;
+}
+
+
+h2 {
+   width: 90%;
+   font: 60px Times , sans-serif;
+    font-weight: bold;
+    color: white;
+    float: left;
+    left: 1em;
+    letter-spacing: 15px;
+    word-spacing: 20px;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .topnav {
+    background-color: #066092;
+    overflow: hidden;
+    width: 100%;
+    height: 42px;
+  }
+
+   .topnav  a {
+    float: center;
+    color: #f2f2f2;
+    /* display: block; */
+    text-align: right;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #ddb000;
+  }
+
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #ddb000;
+    color: white;
+  }
